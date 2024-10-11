@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulaçao Urna Eletronica</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div style="display: flex;">
+      <h4 class="fonteHora">23:30 QUA 09/10/2024</h4>
+      <h4 class="error" style="color: red; margin-left: 80%;"></h4>
+    </div>
+    <h4 class="fonte">SEU VOTO PARA</h4>
+    <div style="display: flex">
+      <h3 class="fonte candidato">VEREADOR</h3>
+    </div>
+    <div class="bpai" style="display: flex;">
+      <div class="b1" style="height: 100%">
+        <div class="selecao">
+          <h3 class="fonte" style="margin-right: 30px">Número:</h3>
+        </div>
+
+        <h3 class="fonte">Nome:</h3>
+
+        <h3 class="fonte">Partido:</h3>
+      </div>
+      <div class="b2">
+        <table class="teclado">
+          <tr>
+            <td><button class="btn-num">7</button></td>
+            <td><button class="btn-num">8</button></td>
+            <td><button class="btn-num">9</button></td>
+            <td><button class="branco">BRANCO</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="btn-num">4</button></td>
+            <td><button class="btn-num">5</button></td>
+            <td><button class="btn-num">6</button></td>
+            <td><button class="corrige">CORRIGE</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="btn-num">1</button></td>
+            <td><button class="btn-num">2</button></td>
+            <td><button class="btn-num">3</button></td>
+            <td><button class="confirma" type="submit">CONFIRMA</button></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td><button class="btn-num">0</button></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./main.js"></script>
+<script src="./teste.js"></script>
+
+</html>

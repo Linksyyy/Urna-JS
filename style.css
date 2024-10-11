@@ -1,0 +1,111 @@
+.sublin {
+  border: 1px solid red;
+}
+
+html {
+  background-color: rgb(197, 197, 197);
+}
+
+h1 {
+  margin: unset;
+  margin-left: 20%;
+}
+
+button {
+  margin: 0px;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10px;
+}
+
+.btn-num:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.btn-num {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.confirma {
+  background-color: green;
+}
+
+.confirma:hover {
+  background-color: rgb(0, 150, 0);
+}
+
+.corrige {
+  background-color: red;
+}
+
+.corrige:hover {
+  background-color: rgb(200, 0, 0);
+}
+
+.branco {
+  background-color: beige;
+}
+
+.branco:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.confirma,
+.corrige,
+.branco {
+  width: 10vw;
+}
+
+.container {
+  border: 8px solid gray;
+  width: 80vw;
+  height: 550px;
+  margin: 2% auto;
+  padding: 1% 1%;
+  background-color: rgb(202, 202, 202);
+  border-radius: 15px;
+  display: flexbox;
+}
+
+.fonteHora {
+  color: rgb(66, 66, 66);
+}
+
+.fonte {
+  color: rgb(29, 29, 29);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 50;
+}
+
+.selecao {
+  margin-top: 3%;
+  height: 80px;
+  width: 75%;
+  display: flex;
+}
+
+.numeroIn {
+  display: block;
+  margin: 10px;
+  padding: unset;
+  border: solid;
+  height: 52px;
+  min-width: 40px;
+  font-size: 130%;
+}
+
+.candidato {
+  display: flexbox;
+  margin: 3% 30%;
+}
+
+.b1 {
+  width: 50%;
+  height: auto;
+}
+
+.b2 {
+  width: 50%;
+  margin-left: 20%;
+}
